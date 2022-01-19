@@ -5,32 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just do it - About </title>
+    <link rel="stylesheet" href="./Style/about.css">
 </head>
 <body>
     <header>
+
         <div id="logo">
-            <img src="/assets/Do it logo.png" alt="Do it logo"  style="border-radius: 50%;" >
+            <img src="/assets/Do it logo.png" alt="Do it logo" >
         </div>
         <div>
-            <h1 style="font-family: cursive;font-style: italic;font-size: 200%;" >Just!! Do it!!</p>
+            <h1 id="Just-Do-it" >Just!! Do it!!</p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Today</a></li>
-                <li>Next 7-Days</li>
-                <li>This Month</li>
-                <li>Year Goals</li>
-                <li><a href="#">About</a></li>
-            </ul>
+        <nav class="header-nav">
+            <a href="./index.html">Today</a>
+            <a href="">Next 7-Days</a>
+            <a href="">This Month</a>
+            <a href="">Year Goals</a>
+            <a href="#">About</a>
         </nav>
     </header>
     <main>
-    <section id="user-information">
+    <section class="user-information">
         <div>
             <img src="/assets/IMG_20210225_15033501.jpg" alt="User Photo" width="200" height="200" >
         </div>
-        <div>
-            <h3>Name: Faisal Al-hawajreh</h3>
+        <div id="information">
+            <h3>Name: Faisal Al-hawajreh</h3><br>
             <p>
                 - Be a Robotics Programmer.<br>
                 - Do exercises Five times a week. <br>
@@ -38,21 +38,21 @@
             </p>
         </div>
     </section>
-    <section id="form">
+    <section class="form">
+        <h3>Contact Information</h3>
         <form>
-            <label for="form">Contact Information</label><br>
             <label for="name">Name: </label>
-            <input type="text" value="">. <br>
+            <input type="text" value="" >. <br>
             <label for="email">Email: </label>
             <input type="email" name="email" id="email">. <br>
             <label for="message">Message: </label>
-            <input type="text" >. <br>
-            <input type="button" value="Sent">
+            <input type="text" id="message"> <br>
+            <input type="button" value="Send">
         </form>
     </section>
     </main>
 
-    <footer style="background-color: rgb(191, 241, 235) ;">
+    <footer>
         <div>
             <h3 style="font-family: cursive;font-style: italic;font-size: 200%;text-align: center ;" >Do it now... Don't be lazy!!</h3>
         </div>
